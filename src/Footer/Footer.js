@@ -28,7 +28,7 @@ function Footer() {
           </li>
         </ul>
         <hr />
-        <p class="copyright">Copyright &copy; 2021 Chimps Technologies</p>
+        <p class="copyright">Copyright &copy; 2021 Euphoria Technologies</p>
       </div>
     </div>
   );
