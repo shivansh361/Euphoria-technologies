@@ -3,6 +3,10 @@
 If you want to contribute to this project, follow the steps below.
 
 
+## Star this repository
+
+Star the repository by clicking the star button at the top of this page.
+
 ## Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page.
