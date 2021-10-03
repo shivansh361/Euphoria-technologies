@@ -1,0 +1,73 @@
+.collapseMenu {
+  background: white;
+  position: fixed;
+  top: 5.5rem;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 70%;
+  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.collapseMenu:before {
+  content: "";
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  top: -5px;
+  background: inherit;
+  z-index: 2;
+}
+
+.collapseMenu > ul {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.collapseMenu > ul > li {
+  transition: all 300ms linear 0s;
+}
+
+.collapseMenu > ul > li > a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  z-index: 100;
+  line-height: 2;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.collapseMenu > ul > li > a:hover {
+  color: #ff589e;
+}
+
+@media (min-width: 1400px) {
+  .collapseMenu {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  .collapseMenu {
+    width: 80%;
+  }
+}
+
+@media (max-width: 728px) {
+  .collapseMenu {
+    width: 90%;
+  }
+}
+
+@media (max-width: 415px) {
+  .collapseMenu {
+    width: 95%;
+  }
+}

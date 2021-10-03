@@ -1,0 +1,172 @@
+.about {
+  padding-bottom: 0px;
+  padding-top: 30px;
+  margin-top: -220px;
+  z-index: 9;
+}
+
+/* boxes */
+
+.about__boxes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+
+.about__boxes__box {
+  cursor: pointer;
+  display: block;
+  background: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  margin-bottom: 30px;
+  width: 400px;
+  min-height: 300px;
+}
+
+.box__icon {
+  transition: all 0.3s ease 0s;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 30px;
+  background: #8261ee;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.box__icon > i > img {
+  margin-top: 15px;
+}
+
+.box__icon:hover {
+  background-color: #ff589e;
+}
+
+.about__boxes__box > h5 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.about__boxes__box > p {
+  width: 80%;
+  margin: auto;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+/* about main */
+
+.about__main {
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.about__main > h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about__main > p {
+  width: 65%;
+  margin: auto;
+  line-height: 1.9;
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+@media (max-width: 1284px) {
+  /* boxes */
+
+  .about__boxes__box {
+    width: 300px;
+    min-height: 300px;
+  }
+
+  .about__boxes__box:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .box__icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .about__boxes__box > h5 {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  .about__boxes__box > p {
+    width: 90%;
+  }
+
+  /* about main */
+
+  .about__main > p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 728px) {
+  .about {
+    margin-top: -50px;
+  }
+
+  .about__boxes {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .about__boxes__box {
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .about__boxes__box:not(:last-child) {
+    margin-right: auto;
+  }
+
+  .about__main > p {
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .about__boxes {
+    width: 90%;
+    margin: auto;
+  }
+
+  .about__boxes__box {
+    width: 100%;
+  }
+
+  .about__boxes__box:not(:last-child) {
+    margin-right: auto;
+  }
+
+  .about__main > p {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+  }
+}

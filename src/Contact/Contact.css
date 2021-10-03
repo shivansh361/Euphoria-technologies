@@ -1,0 +1,136 @@
+.contact {
+  text-align: center;
+}
+
+.contact > h1 {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #333333;
+}
+
+.contact > p {
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.contact__main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.contact__address {
+  text-align: left;
+  flex: 0.8;
+}
+
+.contact__address > h2 {
+  margin-bottom: 10px;
+}
+
+.contact__address > p {
+  color: gray;
+}
+
+.contact__form {
+  text-align: left;
+}
+
+.contact__form > form > input[type="text"] {
+  margin-right: 10px;
+}
+
+.contact__form > form > input[type="text"],
+.contact__form > form > input[type="email"] {
+  width: 49%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  background-color: #f3f2f8;
+}
+
+.contact__form > form > textarea {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  resize: none;
+  border: none;
+  outline: none;
+  background-color: #f3f2f8;
+}
+
+.contact__form > form > button {
+  border: 1px solid #8261ee;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #8261ee;
+  color: #fff;
+  outline: none;
+  margin-top: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.contact__form > form > button:hover {
+  border: 1px solid #ff589e;
+  background-color: #ff589e;
+}
+
+@media (max-width: 1284px) {
+  .contact__form > form > textarea {
+    width: 30em;
+  }
+}
+
+@media (max-width: 728px) {
+  .contact > p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .contact__main {
+    display: block;
+    width: 90%;
+  }
+
+  .contact__address {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .contact__form > form > textarea {
+    width: 100%;
+  }
+
+  .contact__form > form > button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact > p {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .contact__main {
+    display: block;
+    width: 90%;
+  }
+
+  .contact__form > form > input[type="text"],
+  .contact__form > form > input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

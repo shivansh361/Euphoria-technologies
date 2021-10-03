@@ -1,0 +1,51 @@
+.chimpsCards {
+  background-color: #fff;
+  color: #000000;
+  padding: 20px;
+  border-radius: 20px;
+  height: 190px;
+  transition: all 0.3s ease 0s;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(161, 124, 228, 1);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(161, 124, 228, 1);
+  box-shadow: 7px 7px 5px 0px rgba(161, 124, 228, 1);
+  display: grid;
+  place-items: center;
+}
+
+.chimpsCards:hover {
+  margin-top: -10px;
+}
+
+.chimpsCards__heading {
+  display: flex;
+  align-items: center;
+}
+
+.chimpsCards > h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+.chimpsCards__heading > img {
+  margin-left: 20px;
+}
+
+.chimpsCards > p {
+  font-size: 0.85rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+@media (max-width: 500px) {
+  .chimpsCards:hover {
+    margin-top: 0px;
+  }
+
+  .chimpsCards {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,131 @@
+.testimonial {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.testimonial > h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #333333;
+}
+
+.testimonial > p {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  color: gray;
+}
+
+.testimonial__boxes {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.testimonial__boxes__item {
+  display: block;
+  width: 30%;
+  text-align: left;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+.testimonial__boxes__item > p {
+  margin-bottom: 20px;
+}
+
+.user-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.user-image > img {
+  border-radius: 50%;
+}
+
+.team-info > h3 {
+  display: block;
+  font-weight: 400;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+
+.team-info > span {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ff589e;
+  letter-spacing: 0.25px;
+}
+
+@media (max-width: 1284px) {
+  .testimonial > p {
+    width: 60%;
+  }
+
+  .testimonial__boxes {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .testimonial__boxes__item {
+    width: 50%;
+  }
+
+  .testimonial__boxes__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 728px) {
+  .testimonial > p {
+    width: 80%;
+  }
+
+  .testimonial__boxes {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .testimonial__boxes__item {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .testimonial__boxes__item:not(:last-child) {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .testimonial > h2 {
+    font-size: 2rem;
+  }
+
+  .testimonial > p {
+    width: 100%;
+  }
+
+  .testimonial__boxes {
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .testimonial__boxes__item {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
