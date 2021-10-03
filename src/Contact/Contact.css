@@ -79,10 +79,10 @@
 }
 
 .contact__form > form > button:hover {
-  background: linear-gradient(to right, #8261ee 50%, #9777ff 50%);
+  background: linear-gradient(45deg, #8261ee 40%, #9777ff 60%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all 0.5s ease-out;
+  transition: all 0.25s ease-out;
 }
 
 @media (max-width: 1284px) {

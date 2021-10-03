@@ -20,7 +20,7 @@ function Testimonial() {
             scelerisque orci. Maecenas a finibus odio. Maecenas a finibus odio
           </p>
           <div className="user-image">
-            <img src="http://placehold.it/60x60" alt="" />
+            <img src="../images/catherine.png" alt="" />
           </div>
           <div className="team-info">
             <h3 className="user-name">Catherine Soft</h3>
@@ -37,7 +37,7 @@ function Testimonial() {
             nulla vitae, placerat nibh. Cras maximus venenatis molestie.
           </p>
           <div className="user-image">
-            <img src="http://placehold.it/60x60" alt="" />
+            <img src="../images/kelvin.jpg" alt="" />
           </div>
           <div className="team-info">
             <h3 className="user-name">Kelvin Wood</h3>
@@ -53,7 +53,7 @@ function Testimonial() {
             quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.
           </p>
           <div className="user-image">
-            <img src="http://placehold.it/60x60" alt="" />
+            <img src="../images/david.jpeg" alt="" />
           </div>
           <div className="team-info">
             <h3 className="user-name">David Martin</h3>
