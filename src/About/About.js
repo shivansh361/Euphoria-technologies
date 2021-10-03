@@ -40,16 +40,16 @@ function About() {
           (ERPs), e-commerce solutions, business-to-business applications,
           business-to-client applications, AI-ML based applications, IoT and
           blockchain solutions are few that we offer.As a leader in technology
-          exploring, Chimps is committed to providing quality technical
+          exploring, Euphoria is committed to providing quality technical
           solutions worldwide. Satisfied clients around the globe bear the
           testimony to the quality of our work.
         </p>
         <p>
-          Chimps’s business philosophy is to assure the highest quality product,
-          total client satisfaction, timely delivery of solutions and the best
-          quality/price ratio found in the industry. Our emphasis is on offering
-          a high degree of product user friendliness through a positive,
-          creative and focused company staff.
+          Euphoria’s business philosophy is to assure the highest quality
+          product, total client satisfaction, timely delivery of solutions and
+          the best quality/price ratio found in the industry. Our emphasis is on
+          offering a high degree of product user friendliness through a
+          positive, creative and focused company staff.
         </p>
       </div>
     </div>
