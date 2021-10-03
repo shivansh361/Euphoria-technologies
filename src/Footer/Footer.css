@@ -31,6 +31,13 @@
   color: #ffffff;
 }
 
+i.fab:hover {
+  color: #ff589e;
+  transition: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
 @media (max-width: 1284px) {
   .footer__main {
     width: 50%;
