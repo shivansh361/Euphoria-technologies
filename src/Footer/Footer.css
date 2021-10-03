@@ -2,9 +2,7 @@
   background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
 }
 
-footer:hover{
-  color: #ff589e;
-}
+
 
 .footer__main {
   padding: 30px;
@@ -33,6 +31,13 @@ footer:hover{
 .footer__main > p {
   margin-top: 20px;
   color: #ffffff;
+}
+
+i.fab:hover {
+  color: #ff589e;
+  transition: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
 }
 
 @media (max-width: 1284px) {
