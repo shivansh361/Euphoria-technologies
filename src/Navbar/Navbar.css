@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   width: 70%;
+  max-height: 50px;
   margin: auto;
   padding: 20px;
   border-radius: 40px;
@@ -27,6 +28,7 @@
   justify-content: space-between;
   align-items: center;
   width: 70%;
+  max-height: 50px;
   margin: auto;
   padding: 30px;
   border-radius: 40px;
@@ -49,7 +51,7 @@
 
 .logo_img {
   height: auto;
-  width: 80px;
+  width: 70px;
 }
 
 @media (max-width: 1400px) {
