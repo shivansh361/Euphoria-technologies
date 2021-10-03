@@ -76,12 +76,13 @@
   color: #fff;
   outline: none;
   margin-top: 10px;
-  transition: all 0.3s ease 0s;
 }
 
 .contact__form > form > button:hover {
-  border: 1px solid #ff589e;
-  background-color: #ff589e;
+  background: linear-gradient(to right, #8261ee 50%, #9777ff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
 }
 
 @media (max-width: 1284px) {
