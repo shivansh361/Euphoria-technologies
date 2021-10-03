@@ -4,7 +4,9 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Installation
-
+1. Star the repository by clicking the star button at the top of this page.
+1. Fork this repository by clicking on the fork button on the top of this page.
+   This will create a copy of this repository in your account.
 1. Clone the repo
    ```sh
    git clone https://github.com/shivansh361/Euphoria-technologies.git
