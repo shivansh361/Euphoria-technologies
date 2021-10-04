@@ -35,6 +35,10 @@
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+.testimonial__boxes__item:hover{
+  transform: translateY(-20px);
 }
 
 .testimonial__boxes__item > p {
