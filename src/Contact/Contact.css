@@ -61,7 +61,7 @@
   width: 100%;
   border-radius: 10px;
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   resize: none;
   border: none;
   outline: none;
@@ -79,7 +79,7 @@
 }
 
 .contact__form > form > button:hover {
-  background: linear-gradient(45deg, #8261ee 40%, #9777ff 60%);
+  background: linear-gradient(45deg, #7c71a0 40%, #6d5ca3 60%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.25s ease-out;
