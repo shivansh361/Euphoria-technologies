@@ -7,7 +7,6 @@
 }
 
 body {
-  background-color: #ffffff;
   font-family: "Poppins", "sans-serif";
 }
 
@@ -18,4 +17,14 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.toggle-button {
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
 }

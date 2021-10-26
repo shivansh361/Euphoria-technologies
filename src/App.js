@@ -9,6 +9,12 @@ import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 import Team from "./Team/Team";
 import WhyChimps from "./WhyChimps/WhyChimps";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles } from "./GlobalStyles";
+import { lightTheme, darkTheme} from "./Components/Theme";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+
 
 function App() {
   const [isopened, setOpened] = useState(false);
@@ -17,17 +23,30 @@ function App() {
     setOpened(!isopened);
   };
 
+  const [theme, setTheme] = useState('light');
+  const themeToggler = () => {
+    theme === 'light' ? setTheme('dark') : setTheme('light')
+  }
+
   return (
-    <div className="App">
-      <Navbar handleNavbar={handleNavbar} navbarState={isopened} />
-      <Showcase />
-      <About />
-      <WhyChimps />
-      <Testimonial />
-      <Team />
-      <Contact />
-      <Footer />
-    </div>
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+      <>
+      <GlobalStyles />
+      <div className="App">
+        
+          <button className="toggle-button" type="button" onClick={themeToggler}><FontAwesomeIcon icon={theme === 'dark' ? faSun : faMoon} /></button>
+          <Navbar handleNavbar={handleNavbar} navbarState={isopened} />
+          <Showcase />
+          <About />
+          <WhyChimps />
+          <Testimonial />
+          <Team />
+          <Contact />
+          <Footer />
+        
+      </div>
+      </>
+    </ThemeProvider>
   );
 }
 
